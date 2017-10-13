@@ -518,27 +518,32 @@ ol > li::before {
   text-decoration: none;
 }
 
+.link-home {
+  display: block;
+}
+
+.link-home:hover {
+  display: block;
+  font-style: normal;
+}
+
 .btn {
-  cursor: pointer;
-  display: inline-block;
-  padding: .375em .75em .42em;
-  background-color: #333;
-  border-radius: 4px;
-  border: 3px solid #333;
-  color: #262626;
+  display: block;
   text-decoration: none;
 }
 
 .btn:focus,
 .btn:hover {
-  background-color: #262626;
-  border-color: #262626;
+  display: block;
+  font-style: normal;
+  background-color: #424242;
+  border-color: #424242;
   color: #efefef;
 }
 
 .btn-light, .btn--light {
-  background-color: #efefef;
-  border-color: #efefef;
+  background-color: #424242;
+  border-color: #424242;
   color: #000;
 }
 
@@ -546,24 +551,24 @@ ol > li::before {
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #666;
-  border-color: #666;
+  background-color: #424242;
+  border-color: #424242;
   color: #fff;
 }
 
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
-  border-color: #262626
-  color: #fff;
+  border-color: #424242;
+  color: #424242;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #262626;
-  border-color: #262626;
+  background-color: #424242;
+  border-color: #424242;
   color: #fff;
 }
 
