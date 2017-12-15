@@ -19,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #f2f2f2;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -41,4 +40,36 @@ a {
     max-width: 50em;
     width: 100%;
   }
+}
+
+
+.top-grow{
+  transform-origin: top center;
+  animation: grow 0.5s ease forwards;
+}
+
+@keyframes grow {
+ from {
+   transform: scaleY(0);
+}
+
+ to {
+   transform: scaleY(1);
+ }
+}
+
+.side-grow{
+  transform-origin: left center;
+  animation: side 1.5s ease-in-out forwards;
+  background-color: #CCCCCC;
+}
+
+@keyframes side {
+ from {
+   transform: translateX(-50em);
+}
+
+ to {
+   transform: translateX(0);
+ }
 }
