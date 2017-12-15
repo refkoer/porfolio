@@ -45,16 +45,16 @@ a {
 
 .top-grow{
   transform-origin: top center;
-  animation: grow 0.5s ease forwards;
+  animation: grow 1.5s ease-in-out forwards;
 }
 
 @keyframes grow {
  from {
-   transform: scaleY(0);
+   transform: translateY(-5em);
 }
 
  to {
-   transform: scaleY(1);
+   transform: translateY(0);
  }
 }
 
