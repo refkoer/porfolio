@@ -111,3 +111,18 @@ a {
    transform: translateX(0);
  }
 }
+
+.side-grow-3{
+  transform-origin: left center;
+  animation: side-2 2.0s ease-in-out forwards;
+}
+
+@keyframes side-2 {
+ from {
+   transform: translateX(-70em);
+}
+
+ to {
+   transform: translateX(0);
+ }
+}
