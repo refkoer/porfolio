@@ -100,7 +100,7 @@ thead th {
 }
 
 .not-bold {
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .not-italic {
