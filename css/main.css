@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
+  background-color: #E3DAA2;
 }
 
 *, *::before, *::after {
@@ -90,7 +91,7 @@ a {
 
 .side-grow{
   transform-origin: left center;
-  animation: side 2s ease-in-out forwards;
+  animation: side 1.5s ease-in-out forwards;
 }
 
 .side-grow-2{
@@ -124,6 +125,28 @@ a {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+
+  50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in-2 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
 }
 
 @keyframes fadeInOpacity {
