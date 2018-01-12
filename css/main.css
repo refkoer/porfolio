@@ -43,7 +43,6 @@ a {
   }
 }
 
-
 .top-grow{
   transform-origin: top center;
   animation: grow 1.2s ease-in-out forwards;
