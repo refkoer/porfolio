@@ -96,7 +96,7 @@ a {
 
 .side-grow-2{
   transform-origin: center right;
-  animation: side-2 2s ease-in-out forwards;
+  animation: side-2 1.5s ease-in-out forwards;
 }
 
 @keyframes side {
@@ -173,3 +173,15 @@ a {
   -o-transition: all 1.7s ease-in;
   transition: all 1.7s ease-in;
 }
+
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
