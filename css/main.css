@@ -22,11 +22,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  color: #424242;
+  color: #09373A;
 }
 
 a {
-  color: #424242;
+  color: #09373A;
 }
 
 .main-nav {
@@ -45,7 +45,7 @@ a {
 
 .top-grow{
   transform-origin: top center;
-  animation: grow 1.5s ease-in-out forwards;
+  animation: grow 1.2s ease-in-out forwards;
 }
 
 @keyframes grow {
@@ -58,6 +58,20 @@ a {
  }
 }
 
+.top-grow-2{
+  transform-origin: top center;
+  animation: grow 1.2s ease-in-out forwards;
+}
+
+@keyframes grow {
+ from {
+   transform: translateY(-50em);
+}
+
+ to {
+   transform: translateY(0);
+ }
+}
 
 .bot-grow{
   transform-origin: center bottom;
@@ -76,7 +90,7 @@ a {
 
 .side-grow{
   transform-origin: left center;
-  animation: side 1.5s ease-in-out forwards;
+  animation: side 2s ease-in-out forwards;
   background-color: #CCCCCC;
 }
 
@@ -88,7 +102,7 @@ a {
 
 @keyframes side {
  from {
-   transform: translateX(-50em);
+   transform: translateX(-100em);
 }
 
  to {
@@ -125,4 +139,37 @@ a {
  to {
    transform: translateX(0);
  }
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+
+  50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.greydout {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 1;
+-webkit-transition: all 1.7s ease-in;
+  -moz-transition: all 1.7s ease-in;
+  -ms-transition: all 1.7s ease-in;
+  -o-transition: all 1.7s ease-in;
+  transition: all 1.7s ease-in;
 }
