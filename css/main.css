@@ -91,18 +91,16 @@ a {
 .side-grow{
   transform-origin: left center;
   animation: side 2s ease-in-out forwards;
-  background-color: #CCCCCC;
 }
 
 .side-grow-2{
-  transform-origin: left center;
-  animation: side-2 1.7s ease-in-out forwards;
-  background-color: #CCCCCC;
+  transform-origin: center right;
+  animation: side-2 2s ease-in-out forwards;
 }
 
 @keyframes side {
  from {
-   transform: translateX(-100em);
+   transform: translateX(-50em);
 }
 
  to {
@@ -110,30 +108,9 @@ a {
  }
 }
 
-.side-grow-2{
-  transform-origin: left center;
-  animation: side-2 1.7s ease-in-out forwards;
-  background-color: #CCCCCC;
-}
-
 @keyframes side-2 {
  from {
-   transform: translateX(-70em);
-}
-
- to {
-   transform: translateX(0);
- }
-}
-
-.side-grow-3{
-  transform-origin: left center;
-  animation: side-2 2.0s ease-in-out forwards;
-}
-
-@keyframes side-2 {
- from {
-   transform: translateX(-70em);
+   transform: translateX(50em);
 }
 
  to {

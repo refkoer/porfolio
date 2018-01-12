@@ -185,7 +185,7 @@ svg.img-flex {
 }
 
 .embed-24by10, .embed--24by10 {
-  padding-top: 41.667%; /* Widescreen cinema: 2.4:1 */
+  padding-top: 49.5%; /* Widescreen cinema: 2.4:1 */
 }
 
 .embed-3by1, .embed--3by1 {
@@ -540,9 +540,9 @@ ol > li::before {
 .btn:hover {
   display: block;
   font-style: normal;
-  background-color: #848484;
-  border-color: #848484;
-  color: #424242;
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #09373A;
 }
 
 .btn-light, .btn--light {
