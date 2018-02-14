@@ -11,7 +11,8 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
-  background-color: #E3DAA2;
+  font-family: 'Lora', serif;
+  background-color: #f5f5f5;
 }
 
 *, *::before, *::after {
@@ -23,10 +24,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  color: #09373A;
+  color: #343434;
 }
 
 p {
+  color: #343434;
   font-weight: lighter;
 }
 
@@ -39,7 +41,8 @@ p {
 }
 
 a {
-  color: #09373A;
+  color: #343434;
+  font-family: 'Oswald', sans-serif;
 }
 
 .main-nav {
