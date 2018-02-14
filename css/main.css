@@ -10,7 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
   font-family: 'Lora', serif;
   background-color: #f5f5f5;
 }
@@ -30,7 +29,6 @@ h1,h2,h3,h4,h5,h6,p {
 p {
   color: #343434;
   font-weight: lighter;
-  font-family: 'Oswald', sans-serif;
 }
 
 .white {
@@ -43,7 +41,7 @@ p {
 
 a {
   color: #343434;
-  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
 }
 
 .main-nav {
@@ -67,7 +65,7 @@ a {
 
 .top-grow{
   transform-origin: top center;
-  animation: grow 1.7s ease-in-out forwards;
+  animation: grow 1.4s ease-in-out forwards;
 }
 
 @keyframes grow {
@@ -188,21 +186,21 @@ a {
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 1;
--webkit-transition: all 1.7s ease-in;
-  -moz-transition: all 1.7s ease-in;
-  -ms-transition: all 1.7s ease-in;
-  -o-transition: all 1.7s ease-in;
-  transition: all 1.7s ease-in;
+-webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
 }
 
 
 .fade {
    opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
    }
 
    .fade:hover {
-      opacity: 0.5;
+      opacity: 1;
       }

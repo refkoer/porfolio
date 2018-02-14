@@ -230,7 +230,7 @@ svg.img-flex {
 }
 
 .icon {
-  display: inline-block;
+  text-align: center;
   position: relative;
   background: transparent none no-repeat center center;
   background-size: contain;
@@ -530,7 +530,7 @@ ol > li::before {
 .btn {
   display: block;
   text-decoration: none;
-  font-style: normal;
+  font-style: none;
   background-color: #09373A;
   border-color: #09373A;
   color: #efefef;
@@ -540,8 +540,8 @@ ol > li::before {
 .btn:hover {
   display: block;
   font-style: normal;
-  background-color: #efefef;
-  border-color: #efefef;
+  background-color: #fff;
+  border-color: #fff;
   color: #09373A;
 }
 
