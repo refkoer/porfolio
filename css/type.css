@@ -400,6 +400,18 @@ caption {
   padding-right: .1625rem;
 }
 
+.g-l-1-2 {
+  padding-left: .65rem;
+  padding-right:.325rem;
+}
+
+.g-r-1-2 {
+  padding-right: .65rem;
+  padding-left: .325rem;
+}
+
+
+
 select {
   padding: 0 .1625rem;
 }
@@ -619,7 +631,7 @@ legend {
 
   .pad-top-half,
   .pad-t-1-2 {
-    padding-top: .7rem;
+    padding-top: .65rem;
   }
 
   .pad-bottom-half,

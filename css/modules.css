@@ -408,7 +408,7 @@ svg.img-flex {
 }
 
 .pin-top-left, .pin-tl {
-  top: 0;
+  top: 1.5rem;
   left: 0;
 }
 
